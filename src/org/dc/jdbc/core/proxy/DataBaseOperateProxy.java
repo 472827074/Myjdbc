@@ -16,7 +16,6 @@ import org.dc.jdbc.core.sqlhandler.SqlCoreHandle;
  *
  */
 public class DataBaseOperateProxy implements InvocationHandler{
-	//dfsfsfdsfsfsf
 	// 目标对象   
 	private Object target;  
 
