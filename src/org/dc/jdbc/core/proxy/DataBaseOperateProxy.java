@@ -32,7 +32,8 @@ public class DataBaseOperateProxy implements InvocationHandler{
 
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-		SqlContext context = SqlContext.getContext();
+		System.out.println("sss");		
+                SqlContext context = SqlContext.getContext();
 		String methodName = method.getName();
 		System.out.println("sdffsfsf");
 		if(args[0] instanceof String){//sql操作
