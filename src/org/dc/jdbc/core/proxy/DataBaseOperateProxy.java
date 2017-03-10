@@ -35,7 +35,7 @@ public class DataBaseOperateProxy implements InvocationHandler{
 		System.out.println("sss");		
                 SqlContext context = SqlContext.getContext();
 		String methodName = method.getName();
-		System.out.println("sdffsfsf");
+		System.out.println("2222222222222");
 		if(args[0] instanceof String){//sql操作
 			String sqlOrId = args[0].toString();
 			String dosql = sqlOrId.startsWith("$")?CacheCenter.SQL_SOURCE_MAP.get(sqlOrId):sqlOrId;
