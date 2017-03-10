@@ -27,6 +27,7 @@ public class DataBaseOperateProxy implements InvocationHandler{
 		super();  
 		this.target = target;
 		//mytest
+        //sfdsfs
 	}
 
 	@Override
